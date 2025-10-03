@@ -1,0 +1,23 @@
+{
+  "name": "trang-web-chatbot",
+  "version": "1.0.0",
+  "description": "Dự án chatbot cho trang web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "author": "Tên của bạn",
+  "license": "MIT"
+}
