@@ -29,7 +29,7 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'built'),
+    static: path.join(__dirname, 'built'),
     compress: true,
     port: 9000
   }
