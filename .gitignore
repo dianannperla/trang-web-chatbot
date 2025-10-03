@@ -4,4 +4,3 @@ node_modules/
 built/
 .env
 # coverage/
-coverage/
