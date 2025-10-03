@@ -33,6 +33,6 @@ module.exports = {
       directory: path.join(__dirname, 'built'),
     },
     compress: true,
-    port: 9000
+    port: 3000
   }
 };
