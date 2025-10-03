@@ -7,9 +7,9 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Xin chào! Đây là trang web chatbot.');
+  res.send('Welcome! This is the chatbot website.');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server đang chạy trên http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
